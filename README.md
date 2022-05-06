@@ -1,8 +1,8 @@
 # Principal Component Analysis
 
 ## Files
-pca.py contains the code to run PCA for your dataset
-pca_derivation.jpg contains the detailed mathematical derivation of the solution space basis constrained optimization
+*pca.py* contains the code to run PCA for your dataset
+**pca_derivation.jpg** contains the detailed mathematical derivation of the solution space basis constrained optimization
 
 ## About 
 PCA performs orthogonal transformation on the feature space by projecting the points onto an alternate orthogonal dimension space. These are called Principal Components. The Principal Components are obtained in a way that maximizes the variance of the data points in the PC feature space.
