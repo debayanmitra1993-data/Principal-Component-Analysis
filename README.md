@@ -1,7 +1,7 @@
 # Principal Component Analysis
 
 ## Files
-**pca.py** contains the code to run PCA for your dataset</n>
+**pca.py** contains the code to run PCA for your dataset <br/>
 **pca_derivation.jpg** contains the detailed mathematical derivation of the solution space basis constrained optimization
 
 ## About 
