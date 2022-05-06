@@ -8,3 +8,6 @@ The Principal Components are basically the Eigen Vectors of the Mean centered Co
 
 ## Dimensionality Reduction
 Dimensionality Reduction is performed by projecting the data points onto the Principal Component Feature space. The % variance preserved in the new transformed co-ordinate system is given by the cumulative sum normalized of the eigen values in the PC space (after sorting the Eigen values in descending order) 
+
+## Obtaining the solutions of PCA
+The PCA solutions (which are basically the unit vectors) are obtained by solving the Constrained Optimization equation that maximizes the variance over the 1st Principal Component subject to the constraint of unit vectors. This is solved using the Lagrange multipliers method which shows that the obtained unit vectors are basically the eigen vectors of the Covariance Matrix of the dataset. 
